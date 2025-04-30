@@ -5,6 +5,17 @@
 1. Service account credentials json
 
 
+## Setup venv
+
+```
+python -m venv venv
+pip install -r requirements.txt
+```
+
+## Run the code
+
+Before running need to do the following:
+
 Replace <path_to_credentials_json> with your path
 Replace <project_id> with your project_id
 Replace <dataset> with your dataset name

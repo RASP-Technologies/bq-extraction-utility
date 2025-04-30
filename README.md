@@ -16,9 +16,9 @@ pip install -r requirements.txt
 
 Before running need to do the following:
 
-Replace <path_to_credentials_json> with your path
-Replace <project_id> with your project_id
-Replace <dataset> with your dataset name
+1. Replace <path_to_credentials_json> with your path
+2. Replace <project_id> with your project_id
+3. Replace <dataset> with your dataset name
 
 ```
 python info_schema.py --project <project_id> --dataset <dataset> --credentials <path_to_credentials_json>
